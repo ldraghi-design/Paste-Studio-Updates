@@ -1,0 +1,129 @@
+{
+  "application": {
+    "name": "Paste-Studio",
+    "version": "1.0.2"
+  },
+  "modules": {
+    "AppCore": {
+      "api": "1.0",
+      "package": "AppCore-1.0.1.psmod",
+      "requires_api": {},
+      "sha256": "a18edbf424e0eff954c69d1d92e60e626600d3a4dbc7d643e771c129bceff788",
+      "signature": "AppCore-1.0.1.psmod.sig",
+      "size": 278425,
+      "version": "1.0.1"
+    },
+    "AppServices": {
+      "api": "1.0",
+      "package": "AppServices-1.0.1.psmod",
+      "requires_api": {
+        "AppCore": "1.0"
+      },
+      "sha256": "0fef307db7d0cf9035a4785f8cea8b0ebaa07385085686328216205eb77bb2ce",
+      "signature": "AppServices-1.0.1.psmod.sig",
+      "size": 351799,
+      "version": "1.0.1"
+    },
+    "SlicerCore": {
+      "api": "1.0",
+      "package": "SlicerCore-1.0.0.psmod",
+      "requires_api": {
+        "AppCore": "1.0",
+        "AppServices": "1.0"
+      },
+      "sha256": "da0267910fdb60049ac4f488892601bd5948cb78739309b78c93cf6fd03bd08c",
+      "signature": "SlicerCore-1.0.0.psmod.sig",
+      "size": 266342,
+      "version": "1.0.0"
+    },
+    "UICommon": {
+      "api": "1.0",
+      "package": "UICommon-1.0.1.psmod",
+      "requires_api": {
+        "AppServices": "1.0"
+      },
+      "sha256": "d71d9175d1f8f9e10a7c79ef4b842ecb88fe04ff9a25a6600329868298312d6d",
+      "signature": "UICommon-1.0.1.psmod.sig",
+      "size": 3186404,
+      "version": "1.0.1"
+    },
+    "UIExtras": {
+      "api": "1.0",
+      "package": "UIExtras-1.0.1.psmod",
+      "requires_api": {
+        "AppCore": "1.0",
+        "AppServices": "1.0",
+        "SlicerCore": "1.0"
+      },
+      "sha256": "f208ba819b036f2a179f6f4f4eca1fada9e2685f6a5f1eff68537ca048109957",
+      "signature": "UIExtras-1.0.1.psmod.sig",
+      "size": 314892,
+      "version": "1.0.1"
+    },
+    "UILeftPanel": {
+      "api": "1.0",
+      "package": "UILeftPanel-1.0.0.psmod",
+      "requires_api": {
+        "AppCore": "1.0",
+        "AppServices": "1.0",
+        "UICommon": "1.0"
+      },
+      "sha256": "3458a5ce2f8484e937c3a49e4557c9807ee465e5e55cc55af1d2d10c5c814a16",
+      "signature": "UILeftPanel-1.0.0.psmod.sig",
+      "size": 168291,
+      "version": "1.0.0"
+    },
+    "UIManager": {
+      "api": "1.0",
+      "package": "UIManager-1.0.1.psmod",
+      "requires_api": {
+        "AppCore": "1.0",
+        "AppServices": "1.0",
+        "SlicerCore": "1.0",
+        "UICommon": "1.0",
+        "UIExtras": "1.0",
+        "UILeftPanel": "1.0",
+        "UIRightPanel": "1.0",
+        "UIViewportPanel": "1.0"
+      },
+      "sha256": "89b409150419faa7c38179ef2257b5c020692a6fd30e5f27ef02a0f286b00fb1",
+      "signature": "UIManager-1.0.1.psmod.sig",
+      "size": 268543,
+      "version": "1.0.1"
+    },
+    "UIRightPanel": {
+      "api": "1.0",
+      "package": "UIRightPanel-1.0.0.psmod",
+      "requires_api": {
+        "AppCore": "1.0",
+        "UICommon": "1.0"
+      },
+      "sha256": "f4004f9b18c60822937bf57a4b2dfb268218bf2eaaab31dfe28d7f0fc3ec8d4e",
+      "signature": "UIRightPanel-1.0.0.psmod.sig",
+      "size": 137823,
+      "version": "1.0.0"
+    },
+    "UIViewportPanel": {
+      "api": "1.0",
+      "package": "UIViewportPanel-1.0.1.psmod",
+      "requires_api": {
+        "AppCore": "1.0",
+        "UICommon": "1.0"
+      },
+      "sha256": "4a07f2c0afd3981ecd6a4b35a9df84204be56745da5c7de8f58fd73dc662321e",
+      "signature": "UIViewportPanel-1.0.1.psmod.sig",
+      "size": 485608,
+      "version": "1.0.1"
+    }
+  },
+  "release_notes": {
+    "items": [
+      "Added automatic update system.",
+      "Added secure signed update package verification.",
+      "Added automatic update download and installation.",
+      "Added update availability notification in the Paste-Studio interface.",
+      "Added manual update checking from the Help menu."
+    ]
+  },
+  "schema": 1
+}
