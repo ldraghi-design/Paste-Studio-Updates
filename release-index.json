@@ -1,28 +1,28 @@
 {
   "application": {
     "name": "Paste-Studio",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "modules": {
     "AppCore": {
       "api": "1.0",
       "package": "AppCore-1.0.1.psmod",
       "requires_api": {},
-      "sha256": "a18edbf424e0eff954c69d1d92e60e626600d3a4dbc7d643e771c129bceff788",
+      "sha256": "422d76d655c7f345fdec5fe11035c1ace998fb50fc4d41c9a8e982fd73a0ba49",
       "signature": "AppCore-1.0.1.psmod.sig",
-      "size": 278425,
+      "size": 278423,
       "version": "1.0.1"
     },
     "AppServices": {
       "api": "1.0",
-      "package": "AppServices-1.0.1.psmod",
+      "package": "AppServices-1.0.2.psmod",
       "requires_api": {
         "AppCore": "1.0"
       },
-      "sha256": "0fef307db7d0cf9035a4785f8cea8b0ebaa07385085686328216205eb77bb2ce",
-      "signature": "AppServices-1.0.1.psmod.sig",
-      "size": 351799,
-      "version": "1.0.1"
+      "sha256": "99c598ef6d63341e20eeb4916a673b0b43427041921c798f48f7a449a7cdbcd4",
+      "signature": "AppServices-1.0.2.psmod.sig",
+      "size": 352143,
+      "version": "1.0.2"
     },
     "SlicerCore": {
       "api": "1.0",
@@ -31,9 +31,9 @@
         "AppCore": "1.0",
         "AppServices": "1.0"
       },
-      "sha256": "da0267910fdb60049ac4f488892601bd5948cb78739309b78c93cf6fd03bd08c",
+      "sha256": "2367e493a81491fc4d70e6b56e6cc6ae76433e21b32bb867e8faa534cdaf5082",
       "signature": "SlicerCore-1.0.0.psmod.sig",
-      "size": 266342,
+      "size": 266343,
       "version": "1.0.0"
     },
     "UICommon": {
@@ -42,7 +42,7 @@
       "requires_api": {
         "AppServices": "1.0"
       },
-      "sha256": "d71d9175d1f8f9e10a7c79ef4b842ecb88fe04ff9a25a6600329868298312d6d",
+      "sha256": "1dcdaa873466236c98a538059a3a499bdf698785b4d1612051c15350b0c19098",
       "signature": "UICommon-1.0.1.psmod.sig",
       "size": 3186404,
       "version": "1.0.1"
@@ -55,9 +55,9 @@
         "AppServices": "1.0",
         "SlicerCore": "1.0"
       },
-      "sha256": "f208ba819b036f2a179f6f4f4eca1fada9e2685f6a5f1eff68537ca048109957",
+      "sha256": "f68a2d4e46ffbb880e4ac1f04e352922831786f77dffe6ff49c3bf9579c9e8e2",
       "signature": "UIExtras-1.0.1.psmod.sig",
-      "size": 314892,
+      "size": 314891,
       "version": "1.0.1"
     },
     "UILeftPanel": {
@@ -68,9 +68,9 @@
         "AppServices": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "3458a5ce2f8484e937c3a49e4557c9807ee465e5e55cc55af1d2d10c5c814a16",
+      "sha256": "81dc12b06e4fae4bb12cdccbc43dc3fc0547c542f234cf9c2e1306c3a4eb95ea",
       "signature": "UILeftPanel-1.0.0.psmod.sig",
-      "size": 168291,
+      "size": 168288,
       "version": "1.0.0"
     },
     "UIManager": {
@@ -86,9 +86,9 @@
         "UIRightPanel": "1.0",
         "UIViewportPanel": "1.0"
       },
-      "sha256": "89b409150419faa7c38179ef2257b5c020692a6fd30e5f27ef02a0f286b00fb1",
+      "sha256": "3ea9a2d701fd8e7f5bb3bd6437c19cfd708a9d3cbe55b7c06c40744f1e121d29",
       "signature": "UIManager-1.0.1.psmod.sig",
-      "size": 268543,
+      "size": 268542,
       "version": "1.0.1"
     },
     "UIRightPanel": {
@@ -98,9 +98,9 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "f4004f9b18c60822937bf57a4b2dfb268218bf2eaaab31dfe28d7f0fc3ec8d4e",
+      "sha256": "32037d48881ecef871eed5b8580104715c26796d8fd24d0a2d86874ddd26d728",
       "signature": "UIRightPanel-1.0.0.psmod.sig",
-      "size": 137823,
+      "size": 137824,
       "version": "1.0.0"
     },
     "UIViewportPanel": {
@@ -110,19 +110,15 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "4a07f2c0afd3981ecd6a4b35a9df84204be56745da5c7de8f58fd73dc662321e",
+      "sha256": "3b3fb378f1cda9776b6f4d3917e04ad1e10cff9428488c096009ba31793c5e01",
       "signature": "UIViewportPanel-1.0.1.psmod.sig",
-      "size": 485608,
+      "size": 485606,
       "version": "1.0.1"
     }
   },
   "release_notes": {
     "items": [
-      "Added automatic update system.",
-      "Added secure signed update package verification.",
-      "Added automatic update download and installation.",
-      "Added update availability notification in the Paste-Studio interface.",
-      "Added manual update checking from the Help menu."
+      "Fixed update checks on portable installations by using the bundled CA certificate store."
     ]
   },
   "schema": 1
