@@ -3,18 +3,18 @@
     "name": "Paste-Studio",
     "support": {
       "file": "version.cp314-win_amd64.pyd",
-      "sha256": "168b139b288d5052e88ae8b2a6b0ce92eb53d25ec90ce7b5c22d7d5e125c9df3",
+      "sha256": "df9191e036a6028f85baf9ce426aa230b241f305ce0f3c7bcf7e0fcf9f63f280",
       "signature": "version.cp314-win_amd64.pyd.sig",
       "size": 210432
     },
-    "version": "1.0.5"
+    "version": "1.0.6"
   },
   "modules": {
     "AppCore": {
       "api": "1.0",
       "package": "AppCore-1.0.2.psmod",
       "requires_api": {},
-      "sha256": "e6564f431b08bd4ba54eaf199953bd478c4efe29aa61cb17bfbd069e84b4aac9",
+      "sha256": "cb7550169404f3ba93f69966e06a4a90a67181ce3eaaec8fd30a6c6fc44e7431",
       "signature": "AppCore-1.0.2.psmod.sig",
       "size": 278519,
       "version": "1.0.2"
@@ -25,9 +25,9 @@
       "requires_api": {
         "AppCore": "1.0"
       },
-      "sha256": "463c00ec8eea07999882cdac4c7533af0eba71fef0e65f0babd3b7b4821d2514",
+      "sha256": "abc13f30c7570e65ff85311c046b82c3de20938d5ed630e831b75c835ccd4fa5",
       "signature": "AppServices-1.0.3.psmod.sig",
-      "size": 357072,
+      "size": 357073,
       "version": "1.0.3"
     },
     "SlicerCore": {
@@ -37,9 +37,9 @@
         "AppCore": "1.0",
         "AppServices": "1.0"
       },
-      "sha256": "ca49e8fa810257c1aec63c92439e80d4764ce581c98e131a01c171eeb1876613",
+      "sha256": "b5a4263d90956780d58efd1c00f1147c8c0d271be158816209dc2188258a0e2c",
       "signature": "SlicerCore-1.0.0.psmod.sig",
-      "size": 266340,
+      "size": 266344,
       "version": "1.0.0"
     },
     "UICommon": {
@@ -48,23 +48,23 @@
       "requires_api": {
         "AppServices": "1.0"
       },
-      "sha256": "e7bc89e6b5530d8eaa2a8e0db3cd33fcb9087dcec9ffbf4b3b4b00f86d4ea14b",
+      "sha256": "d354fd8def1eae9d39a17f4cad02b035d039c76b0b62ae2f875e3d1e764ad4c0",
       "signature": "UICommon-1.0.1.psmod.sig",
-      "size": 3186406,
+      "size": 3186405,
       "version": "1.0.1"
     },
     "UIExtras": {
       "api": "1.0",
-      "package": "UIExtras-1.0.2.psmod",
+      "package": "UIExtras-1.0.3.psmod",
       "requires_api": {
         "AppCore": "1.0",
         "AppServices": "1.0",
         "SlicerCore": "1.0"
       },
-      "sha256": "9abd9cd6c8d9b656233fa3a04dd472e61ab579e69bccd2f2bb9cba859d750b2d",
-      "signature": "UIExtras-1.0.2.psmod.sig",
-      "size": 318023,
-      "version": "1.0.2"
+      "sha256": "a311f4dbccf4979fc918e739e3072a5d35234569e98d070621efa1bd1f94c383",
+      "signature": "UIExtras-1.0.3.psmod.sig",
+      "size": 318022,
+      "version": "1.0.3"
     },
     "UILeftPanel": {
       "api": "1.0",
@@ -74,9 +74,9 @@
         "AppServices": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "40c6f7e5fed3e9031958455a4f56630b50b7e6780ebfbcccbf7ef1a4187fed64",
+      "sha256": "e205f15d17a73bab35665b33d071dae971b310806dae5e5206f69ff9e4391754",
       "signature": "UILeftPanel-1.0.0.psmod.sig",
-      "size": 168290,
+      "size": 168291,
       "version": "1.0.0"
     },
     "UIManager": {
@@ -92,9 +92,9 @@
         "UIRightPanel": "1.0",
         "UIViewportPanel": "1.0"
       },
-      "sha256": "37ebfc765205b834689075b6e250705dff292a8384de67b9c0e0db6c72d48623",
+      "sha256": "5adba991ed6a1e1ef370c54a621b5926cbeb0695d3caef5adf80de8194eb7af0",
       "signature": "UIManager-1.0.3.psmod.sig",
-      "size": 272587,
+      "size": 272583,
       "version": "1.0.3"
     },
     "UIRightPanel": {
@@ -104,9 +104,9 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "9944954857017fb69be532ef3a327760dbee44329f52df99615a05f85bddd78a",
+      "sha256": "5f2e49cf7fc86547c1a1f22709316b3a670d804c477626eb6a645d015c0c521f",
       "signature": "UIRightPanel-1.0.0.psmod.sig",
-      "size": 137823,
+      "size": 137824,
       "version": "1.0.0"
     },
     "UIViewportPanel": {
@@ -116,7 +116,7 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "0a045681ab7c9e2c70df1c33081d46a235732849e8c46d4c43c06f214ca65463",
+      "sha256": "820e9fd0ce6a15e6e7343b7ca3868eefd1e775561c60db00c64012e968de3154",
       "signature": "UIViewportPanel-1.0.1.psmod.sig",
       "size": 485606,
       "version": "1.0.1"
@@ -125,9 +125,9 @@
   "release_notes": {
     "date": "28/08/2026",
     "items": [
-      "Fix application version support update"
+      "Fix changelog module versioning order"
     ],
-    "title": "Application version update fix",
+    "title": "Changelog versioning fix",
     "type": "BUGFIX"
   },
   "schema": 1
