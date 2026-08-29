@@ -3,32 +3,32 @@
     "name": "Paste-Studio",
     "support": {
       "file": "version.cp314-win_amd64.pyd",
-      "sha256": "df9191e036a6028f85baf9ce426aa230b241f305ce0f3c7bcf7e0fcf9f63f280",
+      "sha256": "335f8ced74b6451d4bc212e00c5d23fda1454bd9a423877c632f20d26b43ac3b",
       "signature": "version.cp314-win_amd64.pyd.sig",
       "size": 210432
     },
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   "modules": {
     "AppCore": {
       "api": "1.0",
       "package": "AppCore-1.0.2.psmod",
       "requires_api": {},
-      "sha256": "cb7550169404f3ba93f69966e06a4a90a67181ce3eaaec8fd30a6c6fc44e7431",
+      "sha256": "037b76a1426c246763a9cb5d45035c9d492ef28af95a17842835baf640806d59",
       "signature": "AppCore-1.0.2.psmod.sig",
       "size": 278519,
       "version": "1.0.2"
     },
     "AppServices": {
       "api": "1.0",
-      "package": "AppServices-1.0.3.psmod",
+      "package": "AppServices-1.0.4.psmod",
       "requires_api": {
         "AppCore": "1.0"
       },
-      "sha256": "abc13f30c7570e65ff85311c046b82c3de20938d5ed630e831b75c835ccd4fa5",
-      "signature": "AppServices-1.0.3.psmod.sig",
-      "size": 357073,
-      "version": "1.0.3"
+      "sha256": "3d5d9dedc577e4f0deee37fccd7f27f84c200e5381480175ac16c30211e72406",
+      "signature": "AppServices-1.0.4.psmod.sig",
+      "size": 358452,
+      "version": "1.0.4"
     },
     "SlicerCore": {
       "api": "1.0",
@@ -37,9 +37,9 @@
         "AppCore": "1.0",
         "AppServices": "1.0"
       },
-      "sha256": "b5a4263d90956780d58efd1c00f1147c8c0d271be158816209dc2188258a0e2c",
+      "sha256": "7d22047f98208d522da5163458e856886ff5e3d90a4473772fbab6c7f00f7e67",
       "signature": "SlicerCore-1.0.0.psmod.sig",
-      "size": 266344,
+      "size": 266342,
       "version": "1.0.0"
     },
     "UICommon": {
@@ -48,23 +48,23 @@
       "requires_api": {
         "AppServices": "1.0"
       },
-      "sha256": "d354fd8def1eae9d39a17f4cad02b035d039c76b0b62ae2f875e3d1e764ad4c0",
+      "sha256": "5e07b27b5c6beedcdcd4c5e7058a0fee3135ec6a1808a75434712d5d5175f429",
       "signature": "UICommon-1.0.1.psmod.sig",
-      "size": 3186405,
+      "size": 3186406,
       "version": "1.0.1"
     },
     "UIExtras": {
       "api": "1.0",
-      "package": "UIExtras-1.0.3.psmod",
+      "package": "UIExtras-1.0.4.psmod",
       "requires_api": {
         "AppCore": "1.0",
         "AppServices": "1.0",
         "SlicerCore": "1.0"
       },
-      "sha256": "a311f4dbccf4979fc918e739e3072a5d35234569e98d070621efa1bd1f94c383",
-      "signature": "UIExtras-1.0.3.psmod.sig",
-      "size": 318022,
-      "version": "1.0.3"
+      "sha256": "bbf7e1d83b3c92d36bc6eda46f2a0462ab3b1cfb9b50a83c0c2928f9db52d9f9",
+      "signature": "UIExtras-1.0.4.psmod.sig",
+      "size": 318107,
+      "version": "1.0.4"
     },
     "UILeftPanel": {
       "api": "1.0",
@@ -74,14 +74,14 @@
         "AppServices": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "e205f15d17a73bab35665b33d071dae971b310806dae5e5206f69ff9e4391754",
+      "sha256": "4bf2cb3ba30e8702928caf1cc66a92b7e642ff7d76e1396cd399e0d1e4aa67c8",
       "signature": "UILeftPanel-1.0.0.psmod.sig",
-      "size": 168291,
+      "size": 168290,
       "version": "1.0.0"
     },
     "UIManager": {
       "api": "1.0",
-      "package": "UIManager-1.0.3.psmod",
+      "package": "UIManager-1.0.4.psmod",
       "requires_api": {
         "AppCore": "1.0",
         "AppServices": "1.0",
@@ -92,10 +92,10 @@
         "UIRightPanel": "1.0",
         "UIViewportPanel": "1.0"
       },
-      "sha256": "5adba991ed6a1e1ef370c54a621b5926cbeb0695d3caef5adf80de8194eb7af0",
-      "signature": "UIManager-1.0.3.psmod.sig",
-      "size": 272583,
-      "version": "1.0.3"
+      "sha256": "d7f37ba4770393b43bb6e1e260fdc1a3baa69a6ef3c247bc0180d490ceef22c4",
+      "signature": "UIManager-1.0.4.psmod.sig",
+      "size": 275532,
+      "version": "1.0.4"
     },
     "UIRightPanel": {
       "api": "1.0",
@@ -104,30 +104,31 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "5f2e49cf7fc86547c1a1f22709316b3a670d804c477626eb6a645d015c0c521f",
+      "sha256": "198a202d4b3e065b932ca66436eaa79124a0b3b1c4bb5d4a8e381382c198083a",
       "signature": "UIRightPanel-1.0.0.psmod.sig",
-      "size": 137824,
+      "size": 137825,
       "version": "1.0.0"
     },
     "UIViewportPanel": {
       "api": "1.0",
-      "package": "UIViewportPanel-1.0.1.psmod",
+      "package": "UIViewportPanel-1.0.2.psmod",
       "requires_api": {
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "820e9fd0ce6a15e6e7343b7ca3868eefd1e775561c60db00c64012e968de3154",
-      "signature": "UIViewportPanel-1.0.1.psmod.sig",
-      "size": 485606,
-      "version": "1.0.1"
+      "sha256": "7be8a9ef56d50d65bd1cb9e6c1bb7c6221a5573fe05fcdf2e73eac1645a9439d",
+      "signature": "UIViewportPanel-1.0.2.psmod.sig",
+      "size": 486348,
+      "version": "1.0.2"
     }
   },
   "release_notes": {
-    "date": "28/08/2026",
+    "date": "29/08/2026",
     "items": [
-      "Fix changelog module versioning order"
+      "Fix part positioning and incremental import",
+      "Fix release versioning and changelog generation"
     ],
-    "title": "Changelog versioning fix",
+    "title": "Part positioning and release versioning fixes",
     "type": "BUGFIX"
   },
   "schema": 1
