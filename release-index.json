@@ -3,20 +3,20 @@
     "name": "Paste-Studio",
     "support": {
       "file": "version.cp314-win_amd64.pyd",
-      "sha256": "918d0a7f3a1629301b2665ec1001a101412bc534bc398765f7f89bd0da849a3a",
+      "sha256": "90b6224ab8462dfd935dfeab56b2a122969d0c8d2a968b3f3bc73529fa1548e9",
       "signature": "version.cp314-win_amd64.pyd.sig",
       "size": 210432
     },
-    "version": "1.0.8"
+    "version": "1.0.9"
   },
   "modules": {
     "AppCore": {
       "api": "1.0",
       "package": "AppCore-1.0.2.psmod",
       "requires_api": {},
-      "sha256": "060e6ae6e54429acbfbfd0b4bf561d911022084e0eb0f841dde9930592c654d3",
+      "sha256": "ead2dffc7c9ac7cca34ccd7997e8d4e8d0bd501571078c7026156423033cee98",
       "signature": "AppCore-1.0.2.psmod.sig",
-      "size": 278518,
+      "size": 278520,
       "version": "1.0.2"
     },
     "AppServices": {
@@ -25,22 +25,22 @@
       "requires_api": {
         "AppCore": "1.0"
       },
-      "sha256": "a12c2780cb191120e81cf56d2f1f7b2fb7d63b46c5de47079a8392011ef57396",
+      "sha256": "5aa3ad9e44e95d4abae69b34104ca8376768fd6e9b92b06d7d34991a3c5f3a51",
       "signature": "AppServices-1.0.4.psmod.sig",
-      "size": 358453,
+      "size": 358452,
       "version": "1.0.4"
     },
     "SlicerCore": {
       "api": "1.0",
-      "package": "SlicerCore-1.0.1.psmod",
+      "package": "SlicerCore-1.0.2.psmod",
       "requires_api": {
         "AppCore": "1.0",
         "AppServices": "1.0"
       },
-      "sha256": "05a879be4c4eaf960a7130a46638edf3d9e295b573d1161216a697cfb054f7f5",
-      "signature": "SlicerCore-1.0.1.psmod.sig",
+      "sha256": "d944e23be3e2335d9a371cf79e440567878bcb1238556656cb98f815124f5621",
+      "signature": "SlicerCore-1.0.2.psmod.sig",
       "size": 266395,
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     "UICommon": {
       "api": "1.0",
@@ -48,23 +48,23 @@
       "requires_api": {
         "AppServices": "1.0"
       },
-      "sha256": "5b8383c71f7d58d68bc0ec7a86c1ecee919523f72c961cb7ba8487616b162736",
+      "sha256": "a7b2078a22fe0b1f74c2730a43be991fec02405b3f81558f7e2851b6b8a1311d",
       "signature": "UICommon-1.0.1.psmod.sig",
-      "size": 3186407,
+      "size": 3186406,
       "version": "1.0.1"
     },
     "UIExtras": {
       "api": "1.0",
-      "package": "UIExtras-1.0.5.psmod",
+      "package": "UIExtras-1.0.6.psmod",
       "requires_api": {
         "AppCore": "1.0",
         "AppServices": "1.0",
         "SlicerCore": "1.0"
       },
-      "sha256": "b16a816afea7f04e5130ae21452568d2d3b5c58968a6ae073ad560a99d03f26c",
-      "signature": "UIExtras-1.0.5.psmod.sig",
-      "size": 318211,
-      "version": "1.0.5"
+      "sha256": "1d60657e54447d18647f71f53ec9affc1449ac8feb60bbe023b462e335c185be",
+      "signature": "UIExtras-1.0.6.psmod.sig",
+      "size": 318262,
+      "version": "1.0.6"
     },
     "UILeftPanel": {
       "api": "1.0",
@@ -74,9 +74,9 @@
         "AppServices": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "4dd1ff7e2f408a44a8245f23426abea61363c092c48b26188785f192f32ed3bb",
+      "sha256": "124c15ad5bc41ed2be0625bbe9364864d6aa4a8632565ab2fa4fca39447971a2",
       "signature": "UILeftPanel-1.0.0.psmod.sig",
-      "size": 168291,
+      "size": 168289,
       "version": "1.0.0"
     },
     "UIManager": {
@@ -92,9 +92,9 @@
         "UIRightPanel": "1.0",
         "UIViewportPanel": "1.0"
       },
-      "sha256": "b1f8f7db6226a46e3e5aa7a189d472a14b5b4d97459dc86eb8190a2bca0c3a57",
+      "sha256": "e38bda0936d68713fbfee6a714ebc4eaa74fd63dfc5a509c6731ae181d5e2586",
       "signature": "UIManager-1.0.4.psmod.sig",
-      "size": 275530,
+      "size": 275532,
       "version": "1.0.4"
     },
     "UIRightPanel": {
@@ -104,7 +104,7 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "17462b5e5de2eed3125f3af368c799a1dc6a3bebb1476857fd10d788eeea7d84",
+      "sha256": "5ac197c280d101ca1046a2185d991e204c570c8219e60ea214b0194cbc227d70",
       "signature": "UIRightPanel-1.0.0.psmod.sig",
       "size": 137826,
       "version": "1.0.0"
@@ -116,19 +116,18 @@
         "AppCore": "1.0",
         "UICommon": "1.0"
       },
-      "sha256": "f30ad20878a80fa1d4b59bd45f2a6e60d8fd7579a91658cb3bf1601020c68e15",
+      "sha256": "44bdc9b26d83f71f1b048ad4af4218986ede13f6fc9588355f67a89ba93f3457",
       "signature": "UIViewportPanel-1.0.2.psmod.sig",
       "size": 486348,
       "version": "1.0.2"
     }
   },
   "release_notes": {
-    "date": "05/10/2026",
+    "date": "06/10/2026",
     "items": [
-      "Calibration of Draft, Fine, and Standard print profiles",
-      "Adjust relief pressure values and add retraction during layer cooling pauses"
+      "Fix extrusion mode after layer cooling pauses"
     ],
-    "title": "Fix pressure relief and retraction during layer cooling pauses",
+    "title": "Fix material consumption statistics with layer cooling pauses",
     "type": "BUGFIX"
   },
   "schema": 1
